@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'testfigma_user_dev_22682.settings')
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "testfigma_user_dev_22682.settings")
 
 application = get_wsgi_application()
